@@ -290,9 +290,9 @@ section {
 /* ABOUT SECTION */
 
 #about {
-  height: 85vh;
-  gap: 5rem;
-  overflow: auto;
+  height: 100vh;
+  /*gap: 5rem;*/
+  /*overflow: auto;*/
 }
 
 .about-containers {
@@ -353,8 +353,8 @@ section {
 /* EXPERIENCE SECTION */
 
 #experience {
-  height: 85vh;
-  overflow: auto;
+  height: 100vh;
+  /*overflow: auto;*/
 }
 
 .experience-sub-title {
@@ -407,8 +407,8 @@ article .icon {
 /* PROJECTS SECTION */
 
 #projects {
-  height: 85vh;
-  overflow: auto;
+  height: 100vh;
+  /*overflow: auto;*/
 }
 
 .color-container {
@@ -454,8 +454,8 @@ article .icon {
 }
 /* BLOG */
 #blog {
-  height: 85vh;
-  overflow: auto;
+  height: 100vh;
+  /*overflow: auto;*/
 }
 
 /* CONTACT */
@@ -483,6 +483,7 @@ article .icon {
   justify-content: center;
   gap: 0.5rem;
   margin: 1rem;
+  cursor: pointer;
 }
 
 .contact-info-container p {
@@ -490,7 +491,7 @@ article .icon {
 }
 
 .contact-icon {
-  cursor: default;
+  cursor: pointer;
 }
 
 .email-icon {
